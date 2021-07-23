@@ -42,6 +42,7 @@ public class parseJsonData {
             //ArrayList list = new ArrayList<mainObject>();
             HashMap<String,Object> result = new ObjectMapper().readValue(emp, HashMap.class);
             val map = mainObject.keys();
+            System.out.println("Mowa bro eee line add chesa")
             while (map.hasNext()) {
                 var key = map.next().toString()
                 var jsonObject = posts.getJSONObject(key)
